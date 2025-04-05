@@ -18,10 +18,6 @@ To provide a simple and interactive way for users to:
 ## 🚀 Setup
 1. Clone this repository to your local machine.
 
-## 🚀 Setup
-
-1. Clone this repository to your local machine.
-
 ```bash
 git clone https://github.com/Keokhu/Career-Path-Recommender.git
 ```
