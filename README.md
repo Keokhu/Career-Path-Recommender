@@ -15,14 +15,18 @@ To provide a simple and interactive way for users to:
 - Recommends a suitable career path based on responses
 - Displays information about different kinds of careers
 
-## 🚀 How to Use
+## 🚀 Setup
+1. Clone this repository to your local machine.
 
-1. Clone the repository
-   '''bash
-   git clone https://github.com/Keokhu/Career-Path-Recommender.git
+## 🚀 Setup
+
+1. Clone this repository to your local machine.
+
+```bash
+git clone https://github.com/Keokhu/Career-Path-Recommender.git
 
    
-3. Add your `.env` file with the Gemini API key
+2. Add your `.env` file with the Gemini API key
 
 ## 💻 Technologies Used
  - HTML
