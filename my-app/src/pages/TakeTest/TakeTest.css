@@ -1,0 +1,148 @@
+/* Assessment.css */
+.dark-assessment-page {
+  background-color: #333333;
+  color: white;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y: auto;
+}
+
+.dark-assessment-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.exploration-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.question-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.question-box {
+  background-color: #444444;
+  border: 1px dotted #666666;
+  padding: 30px;
+  border-radius: 0;
+}
+
+.question-text {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.options-row {
+  display: flex;
+  gap: 20px;
+}
+
+.option-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #666666;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  min-width: 100px;
+  justify-content: center;
+}
+
+.option-btn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-dot {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.option-btn input:checked ~ .radio-dot:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+}
+
+.submit-btn {
+  margin-top: 40px;
+  padding: 12px 30px;
+  background-color: #555555;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #666666;
+}
+
+.submit-btn:disabled {
+  background-color: #444444;
+  cursor: not-allowed;
+}
+
+.results-section {
+  margin-top: 40px;
+  border-top: 1px solid #555555;
+  padding-top: 40px;
+}
+
+.results-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.result-box {
+  background-color: #444444;
+  padding: 30px;
+  border: 1px dotted #666666;
+}
+
+.result-box h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.career-advice {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .options-row {
+    flex-direction: column;
+  }
+  
+  .exploration-title {
+    font-size: 2rem;
+  }
+}
