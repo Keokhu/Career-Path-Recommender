@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": " cd server & npm run server",
     "start": "cd my-app & npm start",
-    "dev": "concurrently \"npm run server\" \"npm start\""
+    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "initialise": "npm i && cd my-app & npm i && cd ../server & npm i"
   },
   "keywords": [],
   "author": "",
