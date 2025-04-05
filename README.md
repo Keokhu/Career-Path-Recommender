@@ -24,6 +24,7 @@ To provide a simple and interactive way for users to:
 
 ```bash
 git clone https://github.com/Keokhu/Career-Path-Recommender.git
+```
 
    
 2. Add your `.env` file with the Gemini API key
